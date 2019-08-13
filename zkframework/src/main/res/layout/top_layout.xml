@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_title_bar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rly_all"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_title_bar"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_text"
+                style="@style/TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="@color/white"/>
+
+            <RelativeLayout
+                android:id="@+id/left_layout"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:onClick="onClick">
+
+                <ImageView
+                    android:id="@+id/left_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/nav_ico_back"/>
+
+                <TextView
+                    android:id="@+id/return_text"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/left_img"
+                    android:text="@string/str_prompt_return"
+                    android:textColor="@color/white"
+                    android:maxLines="2"
+                    android:ellipsize="end"/>
+
+                <!--<com.zkteco.android.widget.view.CircleImageView
+                    android:id="@+id/custom_photo_img"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/main_block_padding"
+                    android:visibility="gone"
+                    app:civ_border_color="@color/green"
+                    app:civ_border_width="1dp">
+
+                </com.zkteco.android.widget.view.CircleImageView>-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/right_layout"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="onClick">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/main_block_padding">
+
+                    <ImageView
+                        android:id="@+id/right_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"/>
+
+                    <ImageView
+                        android:id="@+id/right_img_right_top_mark"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:layout_marginLeft="-4dp"
+                        android:layout_toRightOf="@+id/right_img"
+                        android:src="@drawable/img_red_dot"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/right_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/main_block_margin"
+                    android:clickable="false"
+                    android:enabled="true"
+                    android:singleLine="true"
+                    android:text="@string/str_action_submit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_14"
+                    android:visibility="gone"
+                    tools:text="重启设备"
+                    tools:visibility="visible"/>
+                <!--android:textColor="@drawable/btn_textcolor"-->
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/base_warn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/task_not_valid"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/base_prompt_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/lbs_ico_prompt"/>
+
+            <TextView
+                android:id="@+id/base_warn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/base_prompt_img"
+                android:text="@string/str_prompt_task_not_found"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_div"
+            style="@style/hor_div_line"/>
+
+    </LinearLayout>
+
+</merge>

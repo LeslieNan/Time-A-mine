@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="green">#7AC143</color>
+    <color name="deep_gray">#8F8F8F</color>
+    <color name="task_not_valid">#fff4df</color>
+    <color name="black">#FF000000</color>
+    <color name="color_dedede">#dedede</color>
+    <color name="color_474b4f">#474b4f</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="dialog_inside_bg">#E5ffffff</color>
+    <color name="bg_gray">#7D7574</color>
+    <color name="press_btn_bg">#E5cecbce</color>
+    <color name="edit_lighter_gray">#ddd</color>
+    <color name="color_7ac143">#7ac143</color>
+
+    <color name="color_red">#fe3824</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+
+    <color name="color_title_bar">#6fbd41</color>
+</resources>

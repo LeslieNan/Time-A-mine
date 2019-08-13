@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TA Assistant</string>
+    <string name="str_prompt_return">Return</string>
+    <string name="str_action_submit">Submit</string>
+    <string name="str_prompt_task_not_found">Failed To Get The Positioning Task, Cannot Be Selected</string>
+    <string name="str_attendance_file">Time Attendance File</string>
+    <string name="str_erro_wifi">NO Network, Switch To Network That Can Be Used</string>
+
+    <string name="date_year">Year</string>
+    <string name="date_month">Month</string>
+    <string name="date_day">Day</string>
+    <string name="date_hour">Hour</string>
+    <string name="date_minute">Minute</string>
+    <string name="date_second">Second</string>
+
+    <string name="date_year_stamp">-</string>
+    <string name="date_month_stamp">-</string>
+    <string name="date_day_stamp"> </string>
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+</resources>

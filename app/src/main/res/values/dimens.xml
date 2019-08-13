@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomNavigationHeight">50dp</dimen>
+
+    <!--设置底部导航栏选定后不位移-->
+    <dimen name="design_bottom_navigation_active_text_size">14dp</dimen>
+    <dimen name="design_bottom_navigation_text_size">14dp</dimen>
+    <dimen name="toolbarSize">40dp</dimen>
+
+
+    <dimen name="iconSize">24dp</dimen>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="main_block_padding">15dp</dimen>
+    <dimen name="main_block_margin">10dp</dimen>
+
+    <dimen name="hor_divider_height">1dp</dimen>
+    <dimen name="ico_next_margin">5dp</dimen>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.UserInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="ID" />
+
+            <EditText
+                android:id="@+id/et_user_id"
+                style="@style/editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="First Name" />
+
+            <EditText
+                android:id="@+id/et_user_firstname"
+                style="@style/editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Last Name" />
+
+            <EditText
+                android:id="@+id/et_user_lastname"
+                style="@style/editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Permission" />
+
+            <Spinner
+                android:id="@+id/sp_user_permission"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/et_user_password"
+                style="@style/editTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_user_fingerprint"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/background_item"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                style="@style/textstyleNormal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Fingerprint" />
+
+            <TextView
+                android:id="@+id/tv_user_fingercount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:text="count: 0"
+                android:textSize="15sp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_user_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</FrameLayout>

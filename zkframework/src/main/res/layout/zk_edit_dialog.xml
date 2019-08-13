@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/layout_bg"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        style="@style/Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        tools:text="我是标题"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/dialog_message"
+        android:layout_width="280dp"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        tools:text="111111112222222233334444"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/double_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/dialog_button_left"
+                style="@style/DialogLeftButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginRight="-1dp"
+                android:onClick="onClick"
+                tools:text="左按钮"/>
+
+            <Button
+                android:id="@+id/dialog_button_right"
+                style="@style/DialogRightButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginRight="-1dp"
+                android:layout_toRightOf="@id/dialog_button_left"
+                android:gravity="center"
+                android:onClick="onClick"
+                tools:text="右按钮"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/single_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/dialog_button_single"
+                style="@style/DialogSingleButton"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginRight="-1dp"
+                android:onClick="onClick"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

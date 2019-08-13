@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Time Assistant</string>
+    <string name="home">Devices</string>
+    <string name="order">Dashboard</string>
+    <string name="my">More</string>
+
+    <string name="connected">Connected</string>
+    <string name="history">Historial Connections</string>
+
+    <string name="rule_breaked">Maximum Hours Breaked(HH:MM)</string>
+    <string name="rule_worked">Maximum Hours Worked(HH:MM)</string>
+    <string name="rule_interval">Duplicate Punch Interval(Mins)</string>
+
+
+    <string name="str_has_binded">Bound Device already exists locally! Please Remove And Rebind</string>
+    <string name="uuBindError0005">Connection Failed ,Please Try Later！</string>
+    <string name="uuBindError0014">Password error! Please enter System - Ethernet - PC Connection - Password, change to 0</string>
+    <string name="uuBindError2001">Instruction Error</string>
+    <string name="uuBindError2008">Nonexistent Employee ID</string>
+    <string name="uuBindError2009">Password Is Null</string>
+    <string name="uuBindError2010">Password Error</string>
+    <string name="uuBindError2011">Has Been Bound</string>
+    <string name="uuBindError2012">Already Bound</string>
+    <string name="uuBindError2013">Has Not Been Bound</string>
+    <string name="uuBindError2014">Not Authorized</string>
+    <string name="uuBindError2015">No Report Data</string>
+    <string name="uuBindError2023">Device Is Busy, Please Try Again Later</string>
+    <string name="uuBindError2030">Has Been Bound, Please Input Correct Employee ID</string>
+    <string name="bindSucceed">Bind Successfully</string>
+    <string name="cannotBuildConnect">Cannot Connect</string>
+    <string name="str_connect_fail">Connection Failed, Please Check Network,IP Or Port Number</string>
+
+    <string name="str_error_ipnull">IP Is Null</string>
+    <string name="str_draft_edit">Edit</string>
+    <string name="str_choiceShiftFirst">Please Choose Shift First</string>
+    <string name="str_saveSucceed">Save Successfully</string>
+    <string name="str_saveFailed">Save Failed</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_ok">OK</string>
+    <string name="str_inputNewPort">Please Input New Port</string>
+    <string name="str_connetcedSucceed">Connect Successfully</string>
+    <string name="str_inputPwd">Please Input New Password</string>
+    <string name="str_wrongUdkPwd">Input Password Within 6 chars</string>
+    <string name="str_commitShift">Upload Shift To Device</string>
+    <string name="str_save">Save</string>
+    <string name="str_addShift">Add Shift</string>
+    <string name="str_workStart">Start Work</string>
+    <string name="str_workEnd">End Work</string>
+    <string name="str_workStartOne">Start Work(A.M.)</string>
+    <string name="str_workEndOne">End Work(A.M.)</string>
+    <string name="str_shiftName">Shift Name</string>
+    <string name="str_workStartTwo">Start Work(P.M.)</string>
+    <string name="str_workEndTwo">End Work(P.M.)</string>
+    <string name="str_workOtStart">Initial Overtime Work</string>
+    <string name="str_workOtEnd">End Overtime Work</string>
+    <string name="str_switch2One">Switch To Check Once A Day</string>
+    <string name="str_switch2Two">Switch To Check Twice A Day</string>
+    <string name="str_editShift">Edit Shift</string>
+    <string name="str_inputName">Please Set Shift Name</string>
+    <string name="str_error_inputName">Cannot Contain Chinese</string>
+    <string name="str_schduleByDepartment">Departmental Shift</string>
+    <string name="str_schduleByPerson">Personal Shift</string>
+    <string name="str_timezone_error">Set Timezone Error</string>
+    <string name="str_unSet">Unselected</string>
+    <string name="str_haveSet">Have Set</string>
+    <string name="str_shiftNameTooLong">Shift Name Too Long</string>
+    <string name="str_attDepartment">Division T&amp;A</string>
+    <string name="str_person_schdule">Individual T&amp;A</string>
+    <string name="str_wifi_unconnect">Please Connect To Wi-Fi!</string>
+    <string name="str_device_unconnect">Be Sure To Disconnect?</string>
+
+    <string name="str_wifiName">Wi-Fi Name</string>
+    <string name="uuDeviceName">Device name</string>
+    <string name="deviceAddr">Device IP</string>
+    <string name="port">Port</string>
+    <string name="uuUserPin">Employee ID</string>
+    <string name="uuDevicePwd">Password</string>
+    <string name="unBind">Unbound</string>
+    <string name="uuDeviceBind">Bind Device</string>
+    <string name="binddevice_tobind">Device Binding</string>
+    <string name="uuBindPin">Bind Employee ID</string>
+    <string name="inputPin">Please Input Employee ID</string>
+    <string name="str_input_ip">Please Input IP</string>
+    <string name="str_error_ip">IP Format Does Not Conform To The Rules</string>
+    <string name="str_input_port">Please Input Port Number</string>
+    <string name="str_error_port">Port Format Does Not Conform To The Rules</string>
+    <string name="str_hint_port">Default:4370</string>
+    <string name="str_inputEmail">Please Input Email</string>
+    <string name="str_action_delete">Delete</string>
+    <string name="str_deleteSucceed">Delete Successfully</string>
+    <string name="str_deleteFailed">Delete Failed</string>
+    <string name="str_sendTo">Send To</string>
+    <string name="needInstallService">Need Another Print Device Installation</string>
+    <string name="onlySupportDept">Now Only Support Department Schedule</string>
+    <string name="startDownReport">Start Downloading Report</string>
+    <string name="inputEmail">Input Email</string>
+    <string name="AttendanceRule">Attendance Rules</string>
+    <string name="email_invalid">Input Valid Email</string>
+    <string name="str_email_send_success">Send Email Successfully</string>
+    <string name="str_send_email">Whether To Send mail</string>
+    <string name="str_network_error">Error Network</string>
+    <string name="str_notAdmin">No administrator privileges</string>
+    <string name="str_downSucceed">Download Successfully</string>
+    <string name="str_downFailed">Download Failed</string>
+    <string name="str_withoutdata_error">No Attendance Data In This Period, Please Choose Again</string>
+    <string name="str_choice">Choice</string>
+    <string name="str_chosen">Chosen: </string>
+    <string name="str_schedule_setting">Shift Settings</string>
+    <string name="str_get_authority_fail">Failed To Get Authority, Please Reconnect!</string>
+    <string name="str_connect_fail">Connection Failed, Please Check Network,IP Or Port Number</string>
+    <string name="str_bindSucceed_get_authority_fail">Bind Successfully, Failed To Get Authority, Please Connect Manually!</string>
+
+
+    <string name="str_rangeError">Range Error</string>
+    <string name="str_howManyLate">Definition of Late Arrival</string>
+    <string name="str_howManyEarly">Definition of Early Leave</string>
+    <string name="str_time_limit">Please Input A Length Of Time ：0~60(min)</string>
+    <string name="str_shiftWay">Shift Mode</string>
+    <string name="str_defaultShift">Default Shift</string>
+    <string name="str_modifyfail_dataprocess_error">Data Processing Error</string>
+    <string name="str_satWork">Work On Saturday</string>
+    <string name="str_sunWork">Work On Sunday</string>
+    <string name="str_allDept">All Departments</string>
+    <string name="str_all_person">All People</string>
+    <string name="str_choose_all">Select All</string>
+    <string name="str_defaultShiftChoice">Choose Default Shift</string>
+    <string name="str_choiceDepartment">Choose Department from Department List</string>
+    <string name="str_choicePerson">Choose Person from Person List</string>
+    <string name="str_getDepartmentFailed">Pull Department List failed</string>
+    <string name="str_getPersonFailed">Pull Person List failed</string>
+
+    <string name="str_funcation_introduce_ssr">Directly Operating Wi-Fi</string>
+    <string name="str_funcation_introduce_ssr_under">And SSR Devices</string>
+    <string name="str_funcation_introduce_LAN">Local Area Network Mode</string>
+    <string name="str_funcation_introduce_LAN_under">Connecting To Double U Devices Easily</string>
+    <string name="str_funcation_introduce_direct">Directly Connect Mode</string>
+    <string name="str_funcation_introduce_direct_under">More Convenient? Try To Connect Directly</string>
+    <string name="str_funcation_introduce_highlights">Highlights Function</string>
+    <string name="str_funcation_introduce_highlights_under">Shfit Settings, Download Reports, Share Reports, Etc..</string>
+
+    <string name="str_get_authority">Failed To Get Authority</string>
+    <string name="str_admin_authority">Authorized</string>
+    <string name="str_no_authority">Not Authorized</string>
+
+    <string name="str_connect_device">Please Connect To Device</string>
+    <string name="str_error_withoutdevice">Disconnect To Device, Back To Device Management And Reconnect？</string>
+    <string name="str_download_fail_no_authority">Download Report Failed, Not Authorized</string>
+
+    <string name="str_intelligent_mobile_office">Intelligent Mobile Office</string>
+    <string name="str_more_app">More Applications</string>
+    <string name="str_more_app_please_wait">More Applications, Coming Soon!</string>
+    <string name="str_unconnect_wifi">Unconnected to Wi-Fi</string>
+    <string name="str_erro_wifi">NO Network, Switch To Network That Can Be Used</string>
+    <string name="str_create_file_fail">File Creation Failed!</string>
+    <string name="str_error_nofile">Nonexistent File</string>
+    <string name="str_connected_device">Connected To Device</string>
+    <string name="str_report_manager">Report Management</string>
+
+    <string name="prompt_request_default_text">Unselected</string>
+    <string name="prompt_date_error">End Time Cannot Be Earlier Than Start Time</string>
+    <string name="prompt_no_select_time">Unselected Time</string>
+    <string name="action_close">Close</string>
+    <string name="date_year_month_day_hour_minute">yyyy-MM-dd</string>
+    <string name="str_select_time">Choose Time</string>
+    <string name="str_start_time">Start Time</string>
+    <string name="str_end_time">End Time</string>
+
+    <string name="str_data_diftime_error">Start Time Must Be The Same Month With End Time!</string>
+    <string name="str_data_begintime_error">Start Time Cannot Be Out Of Limit</string>
+    <string name="str_data_endtime_error">End Time Cannot Be Out Of Limit</string>
+    <string name="unbindSucceed">Unbind Successfully</string>
+    <string name="str_workStartOne_error">Set Start Time(A.M.)</string>
+    <string name="str_workEndOne_error">Set End Time(A.M.)</string>
+    <string name="str_workStartTwo_error">Set Start Time(P.M.)</string>
+    <string name="str_workEndTwo_error">Set End Time(P.M.)</string>
+    <string name="str_workStart_error">Set Start Time</string>
+    <string name="str_workEnd_error">Set End Time</string>
+    <string name="str_unknow_error">Unknown Error, Please Try Again</string>
+    <string name="str_error_shift_namerepeat">Duplicate Shift Name, Please Modify</string>
+    <string name="str_spalash_text1">Just For Efficient Work</string>
+    <string name="str_spalash_text2">And Making Attendance Convenient</string>
+
+    <string name="err_device_unsupported">This Device Cannot Connect To APP!</string>
+    <string name="err_device_userexception">User Information Exception,Please Delete This Connection Record,Rebind!</string>
+    <string name="str_un_install_office">Mobile phone does not have the application to open excel.</string>
+    <string name="str_shift_name">Less Than 24 Chars</string>
+
+    <string name="str_back">Back</string>
+    <string name="str_open_info">Open By Other Application</string>
+    <string name="str_download_app">Download</string>
+    <string name="str_ms_applabel">Microsoft Excel</string>
+    <string name="str_best_download">You Can Download</string>
+    <string name="str_best_use">You Can Use</string>
+    <string name="err_gotomarket">Invalid Link, Please Download Excel In APP Store</string>
+    <string name="err_app_notsupport">This Software Cannot Open The  Form</string>
+    <string name="err_max_shifts">Reach Shift Creation Limit</string>
+
+</resources>

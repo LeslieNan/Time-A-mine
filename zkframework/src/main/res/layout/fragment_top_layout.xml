@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/fragment_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_title_bar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rly_all"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:maxLines="1"
+                android:text="test"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <RelativeLayout
+                android:id="@+id/rly_right"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:visibility="gone">
+
+
+                <ImageView
+                    android:id="@+id/right_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/main_block_padding"
+                    android:background="@drawable/nav_icon_device" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/view_hor_div"
+            style="@style/hor_div_line" />
+
+    </LinearLayout>
+
+</merge>

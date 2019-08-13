@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">&#160;&#064;咖</string>
+    <string name="str_prompt_return">返回</string>
+    <string name="str_action_submit">提交</string>
+    <string name="str_prompt_task_not_found">获取不到定位任务，不能选择</string>
+    <string name="str_attendance_file">考勤附件</string>
+    <string name="str_erro_wifi">无网络，请切换能联网的网络</string>
+
+    <string name="date_year">年</string>
+    <string name="date_month">月</string>
+    <string name="date_day">日</string>
+    <string name="date_hour">时</string>
+    <string name="date_minute">分</string>
+    <string name="date_second">秒</string>
+
+    <string name="date_year_stamp">年</string>
+    <string name="date_month_stamp">月</string>
+    <string name="date_day_stamp">日</string>
+
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="january">Jan</string>
+    <string name="february">Feb</string>
+    <string name="march">Mar</string>
+    <string name="april">Apr</string>
+    <string name="may">May</string>
+    <string name="june">Jun</string>
+    <string name="july">Jul</string>
+    <string name="august">Aug</string>
+    <string name="september">Sept</string>
+    <string name="october">Oct</string>
+    <string name="november">Nov</string>
+    <string name="december">Dec</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="TitleHeight">48dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+    <dimen name="text_size_22">22dp</dimen>
+    <dimen name="main_block_padding">15dp</dimen>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RuleActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/rule_worked" />
+
+        <EditText
+            android:id="@+id/et_rule_worked"
+            style="@style/editTextStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/rule_breaked" />
+
+        <EditText
+            android:id="@+id/et_rule_breaked"
+            style="@style/editTextStyle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/rule_interval" />
+
+        <Spinner
+            android:id="@+id/sp_rule_interval"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 描边 -->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/bg_gray"/>
+
+    <corners
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="5dp"/>
+
+    <solid android:color="@color/press_btn_bg"/>
+
+</shape>

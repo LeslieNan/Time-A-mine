@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <com.zkteco.android.framework.view.DatePicker.WheelView
+        android:id="@+id/request_begin_date_wheelview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2" />
+
+    <com.zkteco.android.framework.view.DatePicker.WheelView
+        android:id="@+id/request_begin_hour_wheelview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <com.zkteco.android.framework.view.DatePicker.WheelView
+        android:id="@+id/request_begin_minute_wheelview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+</LinearLayout>
+
+

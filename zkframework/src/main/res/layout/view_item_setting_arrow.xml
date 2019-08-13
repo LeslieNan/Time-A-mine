@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/select_item_bg"
+                android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/img_settingItem_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@color/transparent"
+        tools:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_settingItem_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/img_settingItem_icon"
+        android:layout_toRightOf="@+id/img_settingItem_icon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_14"
+        tools:text="选项1"
+        />
+
+    <TextView
+        android:id="@+id/settingItem_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="35dp"
+        android:paddingEnd="35dp"
+        android:textColor="@android:color/darker_gray"
+        tools:text="未设置"
+        android:textSize="@dimen/text_size_14"/>
+
+    <ImageView
+        android:id="@+id/settingItem_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/ico_next"/>
+</RelativeLayout>

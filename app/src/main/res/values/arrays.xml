@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dashboardBtnsTitle">
+        <item>User Manager</item>
+        <item>Rule</item>
+        <item>Add Punch</item>
+        <item>Record</item>
+        <item>Report</item>
+    </string-array>
+
+    <array name="dashboardBtnsIcon">
+        <item>@drawable/ic_broken_image_black_60dp</item>
+        <item>@drawable/ic_broken_image_black_60dp</item>
+        <item>@drawable/ic_broken_image_black_60dp</item>
+        <item>@drawable/ic_broken_image_black_60dp</item>
+        <item>@drawable/ic_broken_image_black_60dp</item>
+    </array>
+
+</resources>
